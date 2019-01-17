@@ -1,0 +1,35 @@
+$primary: #39C4C3;
+$secondary: #3F5A89;
+
+:host,
+.spindown {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  justify-content: space-evenly;
+
+
+  &__tracker {
+    font-size: 15em;
+    color: $primary;
+    font-weight: 900;
+    flex: 1;
+    text-align: center;
+
+    &--small {
+      font-size: 12em;
+    }
+  }
+
+  &__clicker {
+    margin: 0 2em;
+    cursor: pointer;
+  }
+
+  &__icon {
+    width: 8em;
+    display: block;
+    color: $secondary;
+  }
+}
