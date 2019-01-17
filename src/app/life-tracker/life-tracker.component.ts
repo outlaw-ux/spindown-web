@@ -15,7 +15,6 @@ export class LifeTrackerComponent implements OnInit {
   }
 
   updateLifeTotal(lifeChange: number): void {
-    console.log("update", this.currentLife + lifeChange);
     this.currentLife = this.currentLife + lifeChange;
   }
 }
