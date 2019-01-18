@@ -1,9 +1,9 @@
-import { Component, OnInit } from "@angular/core";
+import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: "app-life-tracker",
-  templateUrl: "./life-tracker.component.html",
-  styleUrls: ["./life-tracker.component.scss"]
+  selector: 'app-life-tracker',
+  templateUrl: './life-tracker.component.html',
+  styleUrls: ['./life-tracker.component.scss'],
 })
 export class LifeTrackerComponent implements OnInit {
   constructor() {}

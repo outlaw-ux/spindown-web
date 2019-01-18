@@ -4,6 +4,7 @@
 /dist
 /tmp
 /out-tsc
+/docs/CNAME
 
 # dependencies
 /node_modules

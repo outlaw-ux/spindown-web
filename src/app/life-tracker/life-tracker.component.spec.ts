@@ -1,14 +1,14 @@
-import { async, ComponentFixture, TestBed } from "@angular/core/testing";
+import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { LifeTrackerComponent } from "./life-tracker.component";
+import { LifeTrackerComponent } from './life-tracker.component';
 
-describe("LifeTrackerComponent", () => {
+describe('LifeTrackerComponent', () => {
   let component: LifeTrackerComponent;
   let fixture: ComponentFixture<LifeTrackerComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [LifeTrackerComponent]
+      declarations: [LifeTrackerComponent],
     }).compileComponents();
   }));
 
@@ -18,7 +18,7 @@ describe("LifeTrackerComponent", () => {
     fixture.detectChanges();
   });
 
-  it("should create", () => {
+  it('should create', () => {
     expect(component).toBeTruthy();
   });
 });
