@@ -15,24 +15,34 @@ $secondary: #3F5A89;
   }
 
   &__tracker {
-    font-size: 15em;
+    font-size: 15rem;
     color: $primary;
     font-weight: 900;
     text-align: center;
     margin: 0;
-
-    @media only screen and (min-width: 700px) {
-      flex: 1;
-    }
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     &--small {
-      font-size: 12em;
+      font-size: 12rem;
     }
   }
 
   &__clicker {
-    margin: 0 2em;
+    margin: 2em 0;
     cursor: pointer;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media only screen and (min-width: 700px) {
+      width: auto;
+      height: 100vh;
+      margin: 0 2em;
+    }
   }
 
   &__icon {
