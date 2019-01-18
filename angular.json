@@ -22,7 +22,12 @@
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "src/tsconfig.app.json",
-            "assets": ["src/favicon.svg", "src/assets", "src/favicon"],
+            "assets": [
+              "src/favicon.svg",
+              "src/assets",
+              "src/favicon",
+              "src/CNAME"
+            ],
             "styles": ["src/styles.scss"],
             "scripts": []
           },
